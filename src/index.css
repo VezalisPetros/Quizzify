@@ -214,6 +214,8 @@ h2{
   }
   .question{
     font-size: 20px;
+    background-color: rgba(16, 38, 58, 0.7); /* Use rgba with slightly darker values */
+
   }
   .questionIdenx{
     font-size: 30px;
