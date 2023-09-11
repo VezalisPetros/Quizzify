@@ -24,3 +24,27 @@
 
    ```bash
    git clone https://github.com/VezalisPetros/Quizzify.git
+
+
+## Contributing
+
+Contributions to Quizzify are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them with descriptive commit messages.
+5. Push your changes to your GitHub repository.
+6. Submit a pull request to the main repository.
+
+## Acknowledgments
+
+- Thank you to the [Open Trivia Database](https://opentdb.com) for providing the quiz questions and categories.
+
+
+## Contact
+
+- If you have any questions or feedback, feel free to reach out:
+  - Email: your.email@example.com
+  - GitHub: [Your GitHub Profile](https://github.com/YourUsername)
+
