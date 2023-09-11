@@ -3,7 +3,7 @@
 **Description:** Quizzify is a React.js application that allows users to create their own quizzes. Users can select various quiz settings, such as the topic, difficulty level, question type (true/false or multiple choice), and more. After configuring their quiz, users must answer 10 questions, and a final screen displays their score.
 
 ## Demo
-- [Live Demo](https://your-demo-url.com)
+- [Live Demo](https://stellar-dieffenbachia-79b703.netlify.app)
 
 ## Features
 
