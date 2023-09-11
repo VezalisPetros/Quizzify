@@ -28,10 +28,17 @@ Check out the live demo of Quizzify at the following URL:
 
 ## Installation
 
-1. Clone the repository:
+To get started with the Quizzify project, follow these steps:
+
+1. Clone the repository, move into the project directory, and install the project dependencies:
 
    ```bash
    git clone https://github.com/VezalisPetros/Quizzify.git
+   cd Quizzify
+   npm install
+2.Start the development server:
+   ```bash
+   npm run dev
 
 
 ## Contributing
