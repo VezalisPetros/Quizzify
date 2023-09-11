@@ -39,7 +39,7 @@ To get started with the Quizzify project, follow these steps:
 2.Start the development server:
    ```bash
    npm run dev
-
+   ```
 
 ## Contributing
 
@@ -51,6 +51,8 @@ Contributions to Quizzify are welcome! If you'd like to contribute, please follo
 4. Make your changes and commit them with descriptive commit messages.
 5. Push your changes to your GitHub repository.
 6. Submit a pull request to the main repository.
+
+
 
 ## Acknowledgments
 
