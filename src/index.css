@@ -2,16 +2,36 @@ body{
   background-image: url("/5206943.jpg");
   background-repeat: no-repeat; 
   background-size: cover; 
+  background-attachment: fixed;
+  
+  
   height: 100vh;
- 
+  margin: 0px;
+  
 }
+
+/* Create a semi-transparent overlay */
+
+
+/* Your existing media query
+@media (max-width: 768px) {
+  body {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+  } */
+
+
+
+  
+
 
 .settingsForm{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
+  
   /* border: 1px solid red; */
 }
 
@@ -121,6 +141,74 @@ h2{
 .incorrect{
   background-color: #8B0000;
 }
+
+.finalScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+  margin-top: 100px;
+  padding: 80px;
+
+}
+
+.pointsGained{
+  text-align: center;
+  color: #2c3e50;
+  font-size: 60px;
+}
+
+.finalScreen-Btns{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 60px;
+  
+}
+
+.btnFinal{
+  margin: 30px;
+  
+}
+
+@media (max-width: 768px) {
+  /* Change background image URL to your image path */
+  body {
+    
+    background-color:rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+    color:white;
+
+  }
+
+  /* Change text color for specific elements */
+  h2, .question, .pointsGained, .message,.settingsText{
+    color:whitesmoke;
+  }
+   .message{
+    font-size: 20px;
+   }
+  .pointsGained,.question{
+    font-size: 30px;
+  }
+  .finalScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .settingsBorder{
+    padding: 20px;
+  }
+  .optionalAnswer{
+    width: 50%;
+  }
+}
+
+
 .vibrate-1:hover{-webkit-animation:vibrate-1 .3s linear  both;animation:vibrate-1 .3s linear  both}
 
 /* ----------------------------------------------
@@ -186,38 +274,5 @@ h2{
     -webkit-transform: translate(0);
             transform: translate(0);
   }
-}
-
-.finalScreen{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0,0,0, 0.1);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
-  margin-top: 100px;
-  padding: 80px;
-
-}
-
-.pointsGained{
-  text-align: center;
-  color: #2c3e50;
-  font-size: 60px;
-  
- 
-}
-
-.finalScreen-Btns{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 60px;
-  
-}
-
-.btnFinal{
-  margin: 30px;
-  
 }
 

@@ -38,7 +38,7 @@ function FinalScreen(props){
         <div>
             <div className="finalScreen">
                 <h1 className='pointsGained'>You have collected {points}/10 points</h1>
-                <h2 >{message}</h2>
+                <h2  className="message">{message}</h2>
 
                 <div className="finalScreen-Btns">
                     <button className='submit-btn vibrate-1 btnFinal' onClick={resetQuiz}>Ready to try again?</button>

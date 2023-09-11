@@ -65,7 +65,7 @@ export default function Settings(props) {
 	return(
 		<div className='settingsBorder'>
       <form onSubmit={handleSubmit} className='settingsForm' >
-    	<h2>Select Category:</h2>
+    	<h2 className='settingsText'>Select Category:</h2>
         <select value={formData.questionCategory} onChange={handleSettingsChange} name="questionCategory">
         <option>All</option>
         {options &&
@@ -75,14 +75,14 @@ export default function Settings(props) {
                 </option>
               ))}
             </select>
-        <h2>Select Difficulty:</h2>
+        <h2 className='settingsText'>Select Difficulty:</h2>
           <select value={formData.questionDifficulty} onChange={handleSettingsChange} name ="questionDifficulty">
             <option value="" key="difficulty-0">All</option>
             <option value="easy" key="difficulty-1">Easy</option>
             <option value="medium" key="difficulty-2">Medium</option>
             <option value="hard" key="difficulty-3">Hard</option>
           </select>
-        <h2>Select Question Type:</h2>
+        <h2 className='settingsText'>Select Question Type:</h2>
           <select value={formData.questionType} onChange={handleSettingsChange} name="questionType">
             <option value="" key="type-0">All</option>
             <option value="multiple" key="type-1">Multiple Choice</option>

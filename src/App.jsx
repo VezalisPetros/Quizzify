@@ -56,7 +56,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='appContainer'>
       <h1 className='logo'>Quizzify</h1>
     <div className="app-container">{component}</div>
     </div>
