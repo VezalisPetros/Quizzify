@@ -8,7 +8,7 @@
 
 Check out the live demo of Quizzify at the following URL:
 
-- [Live Demo](https://stellar-dieffenbachia-79b703.netlify.app){:target="_blank"}
+- [Live Demo](https://stellar-dieffenbachia-79b703.netlify.app)
 
 
 
