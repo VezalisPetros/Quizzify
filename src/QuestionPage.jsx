@@ -41,11 +41,23 @@ export default function QuestionPage(props) {
   
 
   function handleOptionClick(index) {
-    setSelectedAnswer({
-      index: index,
-      text: shuffledPossibleAnswers[index]
+    setSelectedAnswer((prevSelectedAnswer) => {
+      // Toggle the selected answer. If it's already selected, deselect it; otherwise, select it.
+      if (prevSelectedAnswer.index === index) {
+        return {
+          index: null,
+          text: ""
+        };
+      } else {
+        return {
+          index: index,
+          text: shuffledPossibleAnswers[index]
+        };
+      }
     });
   }
+  
+  
   
   function checkAnswer(){
     
@@ -67,7 +79,11 @@ export default function QuestionPage(props) {
         points++;
         props.updateGamePoints(points)
     }
-
+    //setSelectedAnswer(null);
+    setSelectedAnswer({
+      index: null,
+      text: "",
+    });
     gameQuestionsIndex++;
     props.updateGameQuestionsIndex(gameQuestionsIndex);
 
