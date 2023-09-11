@@ -46,5 +46,5 @@ Contributions to Quizzify are welcome! If you'd like to contribute, please follo
 
 - If you have any questions or feedback, feel free to reach out:
   - Email: petrosvez@gmail.com
-  - GitHub: [Your GitHub Profile](https://github.com/VezalisPetros)
+  - GitHub: [Vezalis Petros](https://github.com/VezalisPetros)
 
