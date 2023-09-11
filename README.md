@@ -45,6 +45,6 @@ Contributions to Quizzify are welcome! If you'd like to contribute, please follo
 ## Contact
 
 - If you have any questions or feedback, feel free to reach out:
-  - Email: your.email@example.com
-  - GitHub: [Your GitHub Profile](https://github.com/YourUsername)
+  - Email: petrosvez@gmail.com
+  - GitHub: [Your GitHub Profile](https://github.com/VezalisPetros)
 
